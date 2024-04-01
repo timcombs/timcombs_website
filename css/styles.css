@@ -49,13 +49,11 @@ figcaption {
 .title {
   background: linear-gradient(#0f0902, #251605);
   border-bottom: 10px solid #0f0902;
-  padding: 35px 0;
-  padding-right: 25px;
-
-  /* padding-top: 100px; */
+  padding: 50px 0 35px 0;
+  /* padding-right: 25px; */
   
-  font-size: 1.5rem;
-  text-align: end;
+  font-size: 1.3rem;
+  text-align: center;
 }
 
 .secondary-title {
@@ -346,8 +344,13 @@ figcaption {
 /* lg tablet/laptop */
 @media  screen and (min-width: 900px) {
   .title {
-      padding-top: 100px;
+    padding-right: 25px;
+    padding-top: 100px;
+
+    text-align: end;
+    font-size: 1.5rem;
   }
+
 
   .main-nav {
     display: flex;
