@@ -52,7 +52,7 @@ figcaption {
   padding: 35px 0;
   padding-right: 25px;
 
-  padding-top: 100px;
+  /* padding-top: 100px; */
   
   font-size: 1.5rem;
   text-align: end;
@@ -148,7 +148,7 @@ figcaption {
   width: 100%;
   z-index: 300;
 
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
+  /* box-shadow: 0 1px 4px rgb(146 161 176 / 15%); */
 }
 
 .nav-container {
@@ -345,6 +345,10 @@ figcaption {
 
 /* lg tablet/laptop */
 @media  screen and (min-width: 900px) {
+  .title {
+      padding-top: 100px;
+  }
+
   .main-nav {
     display: flex;
     justify-content: end;
